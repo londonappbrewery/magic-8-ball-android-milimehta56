@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/activity_main"
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#26ade0"
+    android:paddingBottom="16dp"
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
     android:paddingTop="16dp"
-    android:paddingBottom="16dp"
-    android:background="#26ade0"
     tools:context=".MainActivity">
 
     <TextView
@@ -17,10 +17,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:textSize="22sp"
-        android:textStyle="bold"
+        android:text="Make everyday decisions easier!"
         android:textColor="@android:color/black"
-        android:text="Make everyday decisions easier!" />
+        android:textSize="22sp"
+        android:textStyle="bold" />
 
     <ImageView
         android:id="@+id/image_eightBall"
@@ -28,8 +28,9 @@
         android:layout_height="300dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="76dp"
-        android:src="@mipmap/ic_launcher" />
+        android:layout_marginTop="63dp"
+        android:srcCompat="@drawable/ball1"
+        app:srcCompat="@drawable/ball1" />
 
 
     <Button
